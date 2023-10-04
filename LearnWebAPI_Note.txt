@@ -1,0 +1,39 @@
+Application Programing Interface
+
+GET: read
+POST: add
+PUT: update
+DELETE: delete
+
+Test
+200 OK – Trả về thành công cho tất cả phương thức
+201 Created – Trả về khi một Resource được tạo thành công.
+204 No Content – Trả về khi Resource xoá thành công.
+304 Not Modified – Client có thể sử dụng dữ liệu cache.
+400 Bad Request – Request không hợp lệ
+401 Unauthorized – Request cần có auth.
+403 Forbidden – bị từ chối không cho phép.
+404 Not Found – Không tìm thấy resource từ URI.
+405 Method Not Allowed – Phương thức không cho phép với user hiện tại.
+410 Gone – Resource không còn tồn tại, Version cũ đã không còn hỗ trợ.
+415 Unsupported Media Type – Không hỗ trợ kiểu Resource này.
+422 Unprocessable Entity – Dữ liệu không được xác thực.
+429 Too Many Requests – Request bị từ chối do bị giới hạn.
+
++ What is API?: 
+https://www.youtube.com/watch?v=JUvsdFWL7WM
+- Khái niệm: API là một tập hợp các commands, functions, protocols, objects, .... 
+giúp 2 phần mềm(ứng dụng) có thể tương tác và trao đổi dữ liệu qua lại với nhau.
+
+https://topdev.vn/blog/restful-api-la-gi/
+
++ Tutorials build WebAPI in 9 steps:
+https://www.youtube.com/watch?v=Tj3qsKSNvMk
+github: https://github.com/tutorialseu/asp-net-6-yt-rest-api
+
++ Tutorilas ASP.NET Core 5 Web API
+https://www.youtube.com/watch?v=jruvMHTJLj4&list=PLE5Bje814fYbhdwSHiHN9rlwJlwJ2YD3t
+
++ web api? Toidicodedao: https://www.youtube.com/watch?v=fu3GuYFN1p8
+
++ somany knowledge: https://www.youtube.com/watch?v=TxgL1O0G_Yg
